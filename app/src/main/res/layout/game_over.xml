@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#00AAFF"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="GAME OVER"
+        android:textColor="#FFFF00"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="CLICKED WRONG BOX"
+        android:id="@+id/reason"
+        android:textColor="#FF2D2D"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:text="YOUR SCORE : 34"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/gt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:text="Congratulations! you clicked the 34 boxes successfully"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/ge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#3D3D3D"
+            android:text="EXIT"
+            android:textColor="#fff"
+            />
+        <Button
+            android:id="@+id/gr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:text="RESTART"
+            />
+    </LinearLayout>
+</LinearLayout>
